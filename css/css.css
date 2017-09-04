@@ -1,0 +1,197 @@
+/*HEADER*/
+body{
+  font-family: sans-serif;
+  width: 100%;
+}
+
+header{
+  /*position: center;*/
+  padding-top: 15px;
+  padding-bottom: 80px;
+  background-image: url("../img/portada.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+/*responsive*/
+
+.example3 .navbar-brand {
+  height: 80px;
+}
+
+.example3 .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+.example3 .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+/*responsive*/
+
+header nav{
+  z-index: 1;
+  /*position: fixed;*/
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 70px;
+  color: white;
+  background-color: transparent;
+}
+.example3 nav{
+  /*position: fixed;*/
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+div nav h1{
+  color: white;
+}
+
+i{
+  color: #A89F68;
+}
+ button{
+  /*width: 100px;*/
+  padding: 10px;
+  background-color: #41521F;
+  color: white;
+  border-radius: 8px;
+  border-color: transparent;
+}
+
+.boton{
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #41521F;
+  color: white;
+}
+
+.verde{
+  color: #41521F;
+  font-weight: bold;
+}
+
+.plomo{
+  color: #A89F68;
+  font-weight: bold;
+}
+
+ .bienvenida{
+  margin: 70px;
+  text-align: left;
+  width: 30%;
+  z-index: 100;
+  color: white;
+}
+
+.bienvenida h1{
+ text-align: left;
+}
+
+.bienvenida p{
+ text-align: left;
+}
+
+/*SECTION FOUNDATION*/
+.foundation{
+ padding: 50px;
+}
+
+.foundation .information{
+  margin-top: 70px;
+}
+.col-sm-6 p{
+  text-align: left;
+}
+
+
+/*////////*/
+.cosita{
+  border: 5px solid white;
+}
+.easy-help{
+  padding: 100px 0px;;
+  background-color: #A89F68;
+  color: white;
+}
+.easy-help .row{
+  margin: 0px 70px;;
+}
+/*////////////*/
+.help-koalas-fondo{
+  height: 750px;
+  background-image: url("../img/all.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.help-koalas{
+  position: relative;
+  top: 100px;
+  left: 400px;
+}
+
+.help-koalas h3, h5, p{
+    text-align: center;
+}
+
+.help-koalas{
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+}
+/*carrusl*/
+#myCarousel img{
+margin:0 auto ;
+height: 700px;
+}
+
+/*///////*/
+.can{
+  padding: 70px;
+  text-align: center;
+}
+
+.cam{
+
+  background-color: #A89F68;
+}
+.can p{
+text-align: center;
+margin-top: 30px;
+}
+.cam h1{
+  color: white;
+}
+
+.text-iconos{
+  margin-top: 30px;
+}
+
+.spam{
+display: block;
+padding: 20px;
+border-bottom: 1px solid white;
+}
+/*//////////////*/
+
+/*////////////*/
+footer .final{
+ text-align: left;
+ color: white;
+ background-color: #41521F;
+ padding: 70px;
+}
+
+footer  h6, li{
+  color: #A89F68;
+  list-style: none;
+}
+
+footer p{
+   text-align: left;
+}
